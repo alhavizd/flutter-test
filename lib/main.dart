@@ -151,6 +151,7 @@ Widget cardDetail(title, description, price, type) {
   return Card(
     //DENGAN MARGIN YANG DISESUAIKAN
     margin: EdgeInsets.only(top: 15, left: 15, right: 15),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
     //DENGAN KETEBALAN AGAR MEMBENTUK SHADOW SENILAI 8
     elevation: 8,
     //CHILD DARI CARD MENGGUNAKAN LISTTILE AGAR LEBIH MUDAH MENGATUR AREANYA
