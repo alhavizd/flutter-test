@@ -56,7 +56,8 @@ Widget backgroundHeader() {
   //KITA BUAT CONTAINER DENGAN TINGGI SEBESAR 300, DAN LEBAR SEJAUH YANG BISA DIJANGKAU
   //BOXDECORATIONNYA KITA SET WARNANYA PINKACCENT DAN PADA BAGIAN BAWAH KIRI-KANAN DIBUAT LENGKUNGAN
   return Container(
-    height: 300,
+    height: 200,
+    margin: const EdgeInsets.only(bottom: 90.0),
     width: double.infinity,
     decoration: BoxDecoration(
       color: Colors.pinkAccent,
@@ -96,7 +97,7 @@ Widget backgroundHeader() {
 Widget summaryCash() {
   //CONTAINER KEDUA INI BERWARNA PUTIH, KITA SET POSITIONEDNYA DENGAN MENENTUKAN VALUE DARI TOP DAN LEFT AGAR BERADA DITENGAH, DISESUAIKAN SAJA
   return Positioned(
-    top: 180,
+    top: 150,
     left: 15,
     right: 15,
     //CONTAINER KEDUA INI KITA BUAT LEBIH KECIL DENGAN MENENTUKAN WIDTH DAN HEIGHNYA TERBATAS
